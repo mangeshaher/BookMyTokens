@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/setmenu"
+                android:icon="@drawable/ic_date_range_black_48dp"
+                android:title="SetMenu" />
+            <item
+                android:id="@+id/viewmenu"
+                android:icon="@drawable/ic_restaurant_menu_black_48dp"
+                android:title="ViewMenu" />
+            <item
+                android:id="@+id/tokenlist"
+                android:icon="@drawable/ic_view_list_black_48dp"
+                android:title="ViewStudentTokens" />
+            <item
+                android:id="@+id/scanner"
+                android:icon="@drawable/ic_scanner_black_48dp"
+                android:title="Scan!" />
+        </menu>
+    </item>
+
+</menu>

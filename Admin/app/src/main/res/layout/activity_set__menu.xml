@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.mangeshaher.admin.Set_Menu"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day1"
+        android:textSize="20dp"
+        android:id="@+id/day1"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it11"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it12"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day2"
+        android:textSize="20dp"
+        android:id="@+id/day2"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it21"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it22"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day3"
+        android:textSize="20dp"
+        android:id="@+id/day3"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it31"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it32"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day4"
+        android:textSize="20dp"
+        android:id="@+id/day4"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it41"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it42"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day5"
+        android:textSize="20dp"
+        android:id="@+id/day5"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it51"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it52"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day6"
+        android:textSize="20dp"
+        android:id="@+id/day6"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it61"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it62"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Day7"
+        android:textSize="20dp"
+        android:id="@+id/day7"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it71"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:hint="Item2"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it72"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/ibtn"
+        android:text="Insert"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

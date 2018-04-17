@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "855885601912",
+    "firebase_url": "https://bookmytokens-a94d3.firebaseio.com",
+    "project_id": "bookmytokens-a94d3",
+    "storage_bucket": "bookmytokens-a94d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855885601912:android:44a293e7add82a03",
+        "android_client_info": {
+          "package_name": "com.example.mangeshaher.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855885601912-tsg4d9v2gq9m502hareluvqniu38su04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mangeshaher.admin",
+            "certificate_hash": "b2d06a849056eb4ae346110274084b50a260b217"
+          }
+        },
+        {
+          "client_id": "855885601912-8q88sc593h11lpis8v01u62bhj5inol1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAupouS5IN-GqhFvEsqRiT5TdEDGEv94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855885601912-8q88sc593h11lpis8v01u62bhj5inol1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855885601912:android:f5f0ee2488add3cd",
+        "android_client_info": {
+          "package_name": "com.example.mangeshaher.bookmytokens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855885601912-722nqjcj2obpvq08c78orgjjgi29tsn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mangeshaher.bookmytokens",
+            "certificate_hash": "b2d06a849056eb4ae346110274084b50a260b217"
+          }
+        },
+        {
+          "client_id": "855885601912-8q88sc593h11lpis8v01u62bhj5inol1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAupouS5IN-GqhFvEsqRiT5TdEDGEv94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855885601912-8q88sc593h11lpis8v01u62bhj5inol1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
