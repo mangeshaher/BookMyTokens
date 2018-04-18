@@ -21,7 +21,9 @@
             android:name=".Profile"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".BookTokens"></activity>
+        <activity android:name=".BookTokens" />
+        <activity android:name=".ViewToken" />
+        <activity android:name=".Viewtoken"></activity>
     </application>
 
 </manifest>

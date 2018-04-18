@@ -2,6 +2,9 @@ package com.example.mangeshaher.bookmytokens;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -19,9 +22,10 @@ import java.util.Map;
 
 public class BookTokens extends AppCompatActivity {
 
-    private DatabaseReference dr ;
+    private DatabaseReference dr ,drr,arr;
     private ListView lv;
     private List<Row> menulist ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +34,7 @@ public class BookTokens extends AppCompatActivity {
         menulist = new ArrayList<>();
         dr = FirebaseDatabase.getInstance().getReferenceFromUrl("https://bookmytokens-a94d3.firebaseio.com/Menu");
         lv = findViewById(R.id.menulist);
+
     }
 
     @Override

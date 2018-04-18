@@ -153,6 +153,9 @@ public class Profile extends AppCompatActivity
         if(id==R.id.book){
             startActivity(new Intent(Profile.this,BookTokens.class));
         }
+        else if (id==R.id.view){
+            startActivity(new Intent(Profile.this,Viewtoken.class));
+        }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

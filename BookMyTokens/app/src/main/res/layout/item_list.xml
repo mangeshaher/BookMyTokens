@@ -23,7 +23,8 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb1"/>
         <TextView
             android:layout_width="wrap_content"
             android:text="Item1"
@@ -36,6 +37,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:id="@+id/cb2"
             />
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
-        android:id="@+id/BookButton"
+        android:id="@+id/bkbtn"
         android:text="Book Token"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
