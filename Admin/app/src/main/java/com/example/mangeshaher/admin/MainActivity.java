@@ -96,6 +96,9 @@ public class MainActivity extends AppCompatActivity
         }else if(id == R.id.viewmenu){
             startActivity(new Intent(MainActivity.this,ViewMenu.class));
         }
+        else if(id==R.id.scanner){
+            startActivity(new Intent(MainActivity.this,Scanner.class));
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
