@@ -1,15 +1,404 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.mangeshaher.bookmytokens.BookTokens">
 
-    <ListView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/menulist">
 
-    </ListView>
-</RelativeLayout>
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date1"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb11"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it11"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it12"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn1"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date2"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb21"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it21"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb22"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it22"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn2"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date3"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb31"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it31"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb32"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it32"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn3"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date4"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb41"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it41"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb42"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it42"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn4"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date5"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb51"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it51"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb52"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it52"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn5"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date6"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb61"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it61"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb62"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it62"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn6"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:text="Date"
+        android:textSize="20dp"
+        android:id="@+id/date7"
+        android:gravity="left"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_height="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/cb71"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item1"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:id="@+id/it71"
+            android:layout_weight="0.2"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cb72"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Item2"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@+id/it72"
+            android:layout_weight="0.2"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/bkbtn7"
+        android:text="Book Token"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/colorwhite"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
