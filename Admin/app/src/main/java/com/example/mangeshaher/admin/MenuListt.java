@@ -11,17 +11,16 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by mangeshaher on 16/4/18.
+ * Created by mangeshaher on 19/4/18.
  */
 
-public class MenuList extends ArrayAdapter<Row> {
-
+public class MenuListt extends ArrayAdapter<ListContainer> {
     private Activity context;
-    private List<Row> menulist;
+    private List<ListContainer> menulist;
     TextView date,id,item1,item2;
 
-    public MenuList(Activity context, List<Row> menulist){
-        super(context,R.layout.item_list,menulist);
+    public MenuListt(Activity context, List<ListContainer> menulist){
+        super(context,R.layout.list_item,menulist);
         this.context=context;
         this.menulist=menulist;
     }
@@ -32,13 +31,14 @@ public class MenuList extends ArrayAdapter<Row> {
         LayoutInflater inflater = context.getLayoutInflater();
         View listviewitem = inflater.inflate(R.layout.list_item,null,true);
         date = (TextView)listviewitem.findViewById(R.id.date);
+        id = (TextView) listviewitem.findViewById(R.id.id) ;
         item1 = (TextView)listviewitem.findViewById(R.id.it1);
         item2 = (TextView)listviewitem.findViewById(R.id.it2);
-        Row row = menulist.get(pos);
-        date.setText(row.getDate());
-        item1.setText(row.getItem1());
-        item2.setText(row.getItem2());
+        ListContainer row = menulist.get(pos);
+        date.setText(row.getdate());
+        id.setText(row.getid());
+        item1.setText(row.gett1());
+        item2.setText(row.gett2());
         return listviewitem;
     }
-
 }

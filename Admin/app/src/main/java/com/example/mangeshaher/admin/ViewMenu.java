@@ -38,9 +38,7 @@ public class ViewMenu extends AppCompatActivity {
                 for(DataSnapshot menushot : dataSnapshot.getChildren()){
                     Row row = menushot.getValue(Row.class);
                     menulist.add(row);
-
                 }
-
                 MenuList adapter = new MenuList(ViewMenu.this,menulist);
                 lv.setAdapter(adapter);
             }
